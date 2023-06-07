@@ -1,4 +1,4 @@
-![](/rsschool-cv/assets/maksim_morenko.png "Maksim Morenko")
+![](https://github.com/maximmorenko/rsschool-cv/blob/gh-pages/assets/maksim_morenko.png)
 
 # MAKSIM MORENKO
 

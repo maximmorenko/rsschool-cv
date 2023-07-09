@@ -30,6 +30,9 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: var(--shadow);
 }
 
 .main-wrapper {
@@ -38,7 +41,6 @@ body {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
-  box-shadow: var(--shadow);
 }
 
 /* #region aside */
@@ -96,7 +98,7 @@ body {
   color: var(--green);
 }
 
-.skills-list li span {
+.skills-list li span, .year {
   color: #e2e4e6;
 }
 
@@ -266,3 +268,23 @@ p.project-description {
 }
 
 /* #endregion */
+
+/*Footer*/
+footer {
+  padding-left: 55px;
+  padding-right: 55px;
+  background: #505555;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github-logo{
+  fill:rgb(216, 216, 216);
+}
+
+.github-link:hover svg, .github-link:focus svg{
+  color: var(--green);
+}

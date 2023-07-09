@@ -61,6 +61,7 @@ body {
 .my-photo{
   border-radius: 50%;
   overflow: hidden;
+  box-shadow: var(--shadow);
 }
 
 .contacts-link {
@@ -252,7 +253,6 @@ p.project-description {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
-
   margin: 55px 0 20px 0;
 }
 

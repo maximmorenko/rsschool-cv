@@ -140,7 +140,11 @@ body {
 }
 
 section {
-  margin: 55px 40px 0 40px;
+  margin: 40px 40px 0 40px;
+}
+
+.name {
+  margin-bottom: 1em;
 }
 
 .projects-link {
@@ -151,10 +155,11 @@ section {
 .project-experience-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .project-experience-list-item {
+  text-align: center;
   border-radius: var(--radii);
   background-color: var(--bc);
   box-shadow: var(--shadow);

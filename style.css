@@ -19,7 +19,7 @@
 
   --radii: 0.5rem;
   --shadow: rgba(149, 157, 165, 0.8) 0px 8px 24px;
-  --gray: rgb(135, 135, 135);
+  --gray: rgb(93, 93, 93);
   --green: #00d7be;
   --bc: #ffffff;
 }
@@ -140,11 +140,25 @@ body {
 }
 
 section {
-  margin: 40px 40px 0 40px;
+  margin: 40px 0;
+}
+
+.section-container{
+  margin: 40px;
 }
 
 .name {
   margin-bottom: 1em;
+}
+
+.mine-title {
+  padding: 10px 40px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  margin-bottom: 20px;
+  background-color: #006666;
 }
 
 .projects-link {
@@ -222,10 +236,21 @@ p.project-description {
 .kata-link {
   text-decoration: none;
   color: black;
+  background-color: var(--green);
+  padding: 5px 30px;
+  border-radius: var(--radii);
+  transition: transform 700ms;
 }
 
-.kata-link:hover, .kata-link:focus{
-  color: var(--green);
+.kata-link:hover {
+  box-shadow: var(--shadow);
+  transform: scale(1.07, 1.07);
+  transition: transform 700ms;
+  color: white;
+}
+
+.code {
+  padding: 20px 0 0 0;
 }
 
 .profession-title {
@@ -237,11 +262,11 @@ p.project-description {
 }
 
 .profession-company {
-  color: var(--green);
+  color: var(--gray);
 }
 
 .profession-time {
-  color: var(--grey);
+  color: var(--gray);
   font-size: 12px;
   font-weight: 400;
   line-height: 24px;
@@ -263,12 +288,7 @@ p.project-description {
   margin: 55px 0 20px 0;
 }
 
-.education-place {
-  color: var(--green);
-  margin-bottom: 15px;
-}
-
-.specialization {
+.education-place, .specialization {
   margin-bottom: 15px;
 }
 
